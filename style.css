@@ -1,0 +1,25 @@
+body {
+    background-color: #fdffe5;
+}
+#header-box {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-style: double;
+    border-bottom-color: #3f2727;
+}
+#name-header {
+    width: 300px;
+    height: 50px;
+    background-color: #19d8ff;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 20; */
+}
+.about-box {
+    /* height: 500px; */
+    /* background-color: #e0c3ecfa; */
+}
