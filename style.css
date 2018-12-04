@@ -1,6 +1,9 @@
 body {
     background-color: #fdffe5;
 }
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
 #header-box {
     width: 100%;
     background-color: #ffffff;
@@ -19,7 +22,7 @@ body {
     /* top: 0; */
     /* left: 20; */
 }
-.about-box {
-    /* height: 500px; */
-    /* background-color: #e0c3ecfa; */
+#about-box {
+    height: 500px;
+    background-color: #e0c3ecfa;
 }
