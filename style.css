@@ -1,16 +1,15 @@
 body {
-    background-color: #fdffe5;
+    background-color: blue;
 }
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-#header-box {
+.header-box {
+    height: 200px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: green;
     border-bottom-style: double;
     border-bottom-color: #3f2727;
 }
-#name-header {
+.name-header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     width: 300px;
     height: 50px;
     background-color: #19d8ff;
@@ -18,11 +17,19 @@ h1 {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 10px;
-    /* position: fixed; */
-    /* top: 0; */
-    /* left: 20; */
+    top: 0;
+    left: 20;
+    font-size: 32px;
+    float: left;
 }
-#about-box {
+
+.links {
+    padding-top: 27px;
+    background-color: red;
+    height: 50px;
+}
+
+.about-box {
     height: 500px;
     background-color: #e0c3ecfa;
 }
