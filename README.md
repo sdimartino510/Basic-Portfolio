@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Assignment 1 - Building a Wireframe / That Portfolio Though
+Assignment 1 - That Portfolio Though
