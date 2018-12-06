@@ -2,7 +2,7 @@ body {
     background-color: blue;
 }
 .header-box {
-    height: 200px;
+    height: 50px;
     width: 100%;
     background-color: green;
     border-bottom-style: double;
@@ -10,26 +10,68 @@ body {
 }
 .name-header {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 300px;
+    width: 350px;
     height: 50px;
     background-color: #19d8ff;
     color: #ffffff;
     text-align: center;
     padding-top: 17px;
     padding-bottom: 10px;
+    margin-left: 200px;
     top: 0;
     left: 20;
     font-size: 32px;
+    font-weight: 700;
     float: left;
+}
+
+.name-spacer {
+    min-width: 200px;
+    height: 1px;
+    width: 200px;
 }
 
 .links {
     padding-top: 27px;
     background-color: red;
     height: 50px;
+    text-align: right;
+    padding-right: 200px;
 }
-
+.about {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.portfolio {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact {
+    text-decoration: none;
+    color: #ffffff;
+}
 .about-box {
     height: 500px;
+    width: 876px;
+    margin: auto;
     background-color: #e0c3ecfa;
+}
+.about-me {
+    font-size: 32px;
+    font-weight: 700;
+    /* background-color: black; */
+    color: #ffffff;
+    padding-top: 17px;
+    padding-left: 25px;
+    height: 30px;
+}
+.photo {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.about-text {
+    padding-left: 25px;
+    padding-right: 25px;
 }
