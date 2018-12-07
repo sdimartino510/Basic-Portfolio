@@ -1,8 +1,10 @@
 body {
-    background-color: antiquewhite;
+    background-color: #faebd7;
+    min-width: 1275px;
+    max-width: 1275px;
 }
 .header-box {
-    height: 50px;
+    height: 77px;
     width: 100%;
     background-color: #ffffff;
     border-bottom-style: double;
@@ -24,13 +26,6 @@ body {
     font-weight: 700;
     float: left;
 }
-
-.name-spacer {
-    min-width: 200px;
-    height: 1px;
-    width: 200px;
-}
-
 .links {
     background-color: #ffffff;
     color: #be1515;
@@ -55,7 +50,8 @@ body {
 }
 .about-box {
     height: 417px;
-    width: 876px;
+    min-width: 876px;
+    max-width: 876px;
     margin: auto;
     background-color: #ffffff;
 }
