@@ -4,6 +4,7 @@ body {
     max-width: 1275px;
 }
 .header-box {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     height: 77px;
     width: 100%;
     background-color: #ffffff;
@@ -11,7 +12,6 @@ body {
     border-bottom: 2px double #cccccc;
 }
 .name-header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
     width: 350px;
     height: 50px;
     background-color: #4aaaa5;
@@ -27,7 +27,6 @@ body {
     float: left;
 }
 .links {
-    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
     color: #be1515;
     padding-top: 27px;
@@ -97,6 +96,7 @@ textarea {
     resize: none;
 }
 .submit {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     font-size: 15px;
     height: 40px;
