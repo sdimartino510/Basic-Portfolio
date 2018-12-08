@@ -65,6 +65,10 @@ body {
     padding-left: 25px;
     height: 30px;
 }
+.hr {
+    width: 826px;
+    margin-bottom: 18px
+}
 .photo {
     padding-left: 25px;
     padding-top: 15px;
@@ -78,14 +82,25 @@ body {
     line-height: 27px;
 }
 .contact-form input[type=text], select {
-    width: 800px;
-    padding: 12px 20px;
-    margin: 0px 20px;
-    display: inline-block;
+    width: 826px;
+    padding: 10px 10px;
+    margin: 0px 0px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    /* float: left; */
+    display: inline-block;
+}
+.contact-form {
+    margin-left: 25px;
+}
+textarea {
+    resize: none;
+}
+.submit {
+    background-color: #4aaaa5;
+    font-size: 15px;
+    height: 40px;
+    width: 85px;
 }
 .copyright {
     font-family: 'Georgia', Times, Times New Roman, serif;
